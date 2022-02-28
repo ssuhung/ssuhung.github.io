@@ -23,24 +23,24 @@ body > main > section {
 
 .graph_title_text {
     position: absolute;
-    left: 1px;
-    right: 1px;
+    left: 0px;
+    right: 0px;
     top: 50%;
-    font-size: 6vw;
+    font-size: 6rem;
 }
 
 .title_title_text {
     position: absolute;
     left: 16%;
     top: 65%;
-    font-size: 6vw;
+    font-size: 6rem;
 }
 
 .title_title_text2 {
     position: absolute;
     left: 16%;
     top: 73.5%;
-    font-size: 2vw;
+    font-size: 1.3rem;
 }
 
 .ff-1 {
