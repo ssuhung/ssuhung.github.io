@@ -16,24 +16,19 @@ body > main > section {
     padding: 30%;
 }
 
-.graph_title {
-    position: relative;
-    text-align: center;
-}
-
 .graph_title_text {
     position: absolute;
     left: 0px;
     right: 0px;
     top: 50%;
-    font-size: 6rem;
+    font-size: 4em;
 }
 
 .title_title_text {
     position: absolute;
     left: 16%;
     top: 65%;
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 .title_title_text2 {
