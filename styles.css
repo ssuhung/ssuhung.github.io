@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+* {
+    /* font-family: 'Noto Sans TC', sans-serif; */
+    line-height: 22px;
+}
+
+body {
+    background: rgba(12, 10, 10, 0.84);
+}
+
+body > main > section {
+    border-top: 100px;
+    padding: 30%;
+}
+
+.graph_title {
+    position: relative;
+    text-align: center;
+}
+
+.graph_title_text {
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 50%;
+    font-size: 55px;
+}
+
+.title_title_text {
+    position: absolute;
+    left: 16%;
+    top: 65%;
+    font-size: 50px;
+}
+
+.title_title_text2 {
+    position: absolute;
+    left: 16%;
+    top: 73%;
+    font-size: 20px;
+}
+
+.ff-1 {
+    font-family: "IM FELL Great Primer SC";
+}
+
+.ff-2 {
+    font-family: "IM Fell Great Primer", serif;
+}
+
+.ff-3 {
+    font-family: "Iceland", cursive;
+}
+
+.fs-7 {
+    font-size: 0.5rem;
+}

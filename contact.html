@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+  <head>
+      <meta charset="utf-8"> 
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Sshung Yeh's Space</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-dark navbar-expand-sm p-3 bg-dark sticky-top">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none navbar-brands">
+            Ssuhung Yeh
+          </a>
+        </div>
+
+        <!--Navigation bar expand button-->
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!--Top buttons-->
+        <div class="collapse navbar-collapse" id="nav-menu">
+          <ul class="navbar-nav ms-5 ff-1">
+            <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-white">About Me</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Stories</a></li>
+            <li class="nav-item"><a href="./contact.html" class="nav-link px-2">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!--Language Selector-->
+        <div class="nav-item dropdown text-end">
+          <button class="nav-link btn btn-sm btn-primary dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Language
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="./contact.html">中文</a></li>
+            <li><a class="dropdown-item" href="./contact.html">English</a></li>
+            <li><a class="dropdown-item" href="./contact.html">日本語</a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+
+    <div class="container">
+      <main class="text-white">
+        <section class="pt-5">
+          <div class="row">
+            <div class="col-md">
+              <!-- Contact Title-->
+              <div class="graph_title">
+                <span class="graph_title_text ff-1">Contact</span>
+                <img class="img-fluid" src="./img/contact_title.jpg" alt="logo">
+              </div>
+              <p class="text-center py-5 ff-3 fs-4">ssuhung@ymail.com</p>
+            </div>
+
+            <!-- Separator -->
+            <div class="d-none d-md-block col-1 text-center" style="height: 30rem;">
+              <img class="h-100" src="./img/contact_separator.svg" alt="">
+            </div>
+
+            <div class="col-md">
+              <div class="graph_title">
+                <span class="graph_title_text ff-1">Follow Me</span>  
+                <img class="img-fluid" src="./img/follow_title.jpg" alt="logo">
+              </div>
+              <div class="row py-5">
+                <div class="col text-center">
+                  <a href="https://www.instagram.com/ssuhung/">
+                    <span class="iconify" data-icon="akar-icons:instagram-fill" style="color: white;" data-width="70" data-height="70"></span>
+                  </a>
+                </div>
+                <div class="col text-center">
+                  <a href="https://github.com/ssuhung">
+                    <span class="iconify" data-icon="akar-icons:github-fill" style="color: white;" data-width="70" data-height="70"></span>
+                  </a>
+                </div>
+                <div class="col text-center">
+                  <a href="https://www.linkedin.com/in/ssuhung-yeh-736644172/">
+                    <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: white;" data-width="70" data-height="70"></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+      
+    <!-- footer -->
+    <div class="footer"></div>
+      
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <script>
+      $(".footer").load("footer.html")
+    </script>
+  </body>
+</html>
