@@ -17,22 +17,19 @@ body > main > section {
 }
 
 .graph_title_text {
-    position: absolute;
     left: 0px;
     right: 0px;
     top: 50%;
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 .title_title_text {
-    position: absolute;
     left: 16%;
     top: 65%;
     font-size: 3rem;
 }
 
 .title_title_text2 {
-    position: absolute;
     left: 16%;
     top: 73.5%;
     font-size: 1.3rem;
