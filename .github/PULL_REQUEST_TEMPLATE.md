@@ -14,7 +14,7 @@ Please select the desired item checkbox and change it to "[x]", then delete opti
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation update
+- [ ] Articles update
 
 ## How has this been tested
 
@@ -24,19 +24,3 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 - [ ] I have run `bash ./tools/test.sh` (at the root of the project) locally and passed
 - [ ] I have tested this feature in the browser
-
-### Test Configuration
-
-- Browser type & version:
-- Operating system:
-- Ruby version: <!-- by running: `ruby -v` -->
-- Bundler version: <!-- by running: `bundle -v`-->
-- Jekyll version: <!-- by running: `bundle list | grep " jekyll "` -->
-
-### Checklist
-
-<!-- Select checkboxes by change the "[ ]" to "[x]" -->
-- [ ] I have performed a self-review of my code
-- [ ] I have commented on my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
