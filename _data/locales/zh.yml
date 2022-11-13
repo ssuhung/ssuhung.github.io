@@ -43,7 +43,7 @@ copyright:
 meta: 本網站由 :PLATFORM 生成，使用 :THEME 主題。
 
 not_found:
-  statment: 抱歉，找不到此 URL，或它指向了不存在的内容。
+  statment: 抱歉，找不到此内容，或者清零宗不喜歡這篇文章。
 
 notification:
   update_found: 發現新版本的内容。
