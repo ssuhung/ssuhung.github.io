@@ -7,7 +7,7 @@ order: 1
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page. -->
 <!-- {: .prompt-tip } -->
 
-![image](/assets/photos/樂器行結束.jpeg)
+![image](/assets/img/樂器行結束.jpeg)
 
 # 關於我
 出生於臺灣盛產強風的城市，有著多項宅興趣的臺灣人。對程式設計有著濃厚興趣、並以強大的軟體工程師為目標努力中。現役東京大學情報理工研究科碩士生，研究主題為資訊安全。
