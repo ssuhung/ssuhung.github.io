@@ -1,5 +1,5 @@
 ---
 layout: projects
-icon: fas fa-stream
+icon: fas fa-book-open
 order: 2
 ---
