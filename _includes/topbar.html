@@ -10,7 +10,7 @@
 
     {% if paths.size == 0 or page.layout == 'posts_list' %}
       <!-- index page -->
-      <span>{{ site.data.locales[site.lang].tabs.home | capitalize }}</span>
+      <span>{{ site.data.locales[site.lang].tabs.post_list | capitalize }}</span>
 
     {% else %}
 
@@ -19,7 +19,7 @@
         {% if forloop.first %}
           <span>
             <a href="{{ '/' | relative_url }}">
-              {{ site.data.locales[site.lang].tabs.home | capitalize }}
+              {{ site.data.locales[site.lang].tabs.post_list | capitalize }}
             </a>
           </span>
 
