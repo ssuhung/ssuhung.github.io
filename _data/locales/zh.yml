@@ -10,12 +10,12 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: 首頁
   about: 關於我
+  posts_list: 文章列表
   project: 專案
-  categories: 分類
+  categories: 文章分類
   tags: 標籤
-  archives: 時間線
+  archives: 文章時間軸
 
 # the text displayed in the search bar & search results
 search:

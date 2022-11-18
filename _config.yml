@@ -40,7 +40,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Ssuhung Yeh
+  name: 葉思泓
   email: ssuhung@ymail.com           # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -112,6 +112,7 @@ pwa:
   enabled: true   # the option for PWA feature
 
 paginate: 10
+paginate_path: "/posts_list/:num/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
