@@ -5,7 +5,7 @@
   If the number of TAB files has changed, the following variable is required.
   And it must be defined before `@import`.
 */
-$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for posts_list tab
+$tab-count: {{ site.tabs | size }}; // add "| plus: 1" to adjust number of tabs
 
 @import "{{ site.theme }}";
 
