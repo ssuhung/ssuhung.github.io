@@ -1,5 +1,6 @@
 ---
 # the default layout is 'page'
+# Icon is using fontaweson v5, cae search in https://fontawesome.com/v5/search
 icon: fas fa-address-card
 order: 1
 permalink: "/"
