@@ -8,9 +8,9 @@
 
     {% assign paths = page.url | split: '/' %}
 
-    {% if paths.size == 0 or page.layout == 'posts_list' %}
-      <!-- index page -->
-      <span>{{ site.data.locales[site.lang].tabs.post_list | capitalize }}</span>
+    {% if paths.size == 0 %}
+      <!-- in root page -->
+      <span>{{ site.website_title | capitalize }}</span>
 
     {% else %}
 
@@ -19,17 +19,12 @@
         {% if forloop.first %}
           <span>
             <a href="{{ '/' | relative_url }}">
-              {{ site.data.locales[site.lang].tabs.post_list | capitalize }}
+              {{ site.website_title | capitalize }}
             </a>
           </span>
 
         {% elsif forloop.last %}
-
-          {% if page.collection == 'tabs' %}
-            <span>{{ site.data.locales[site.lang].tabs[item] | default: page.title }}</span>
-          {% else %}
-            <span>{{ page.title }}</span>
-          {% endif %}
+          <span>{{ site.data.locales[site.lang].tabs[item] | default: page.title }}</span>
 
         {% elsif page.layout == 'category' or page.layout == 'tag' %}
           <span>

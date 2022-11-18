@@ -10,8 +10,8 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  post_list: 文章列表
   about: 關於我
+  posts_list: 文章列表
   project: 專案
   categories: 分類
   tags: 標籤
