@@ -15,14 +15,14 @@ tail_includes:
     <!-- published date -->
     <span>
       {{ site.data.locales[site.lang].post.posted }}
-      {% include datetime.html date=page.date tooltip=true %}
+      {% include datetime.html date=page.date tooltip=false %}
     </span>
 
     <!-- lastmod date -->
     {% if page.last_modified_at %}
     <span>
       {{ site.data.locales[site.lang].post.updated }}
-      {% include datetime.html date=page.last_modified_at tooltip=true %}
+      {% include datetime.html date=page.last_modified_at tooltip=false %}
     </span>
     {% endif %}
 
@@ -72,7 +72,7 @@ tail_includes:
           {% unless forloop.last %}</em>, <em>{% endunless %}
         {% endfor %}
       {% else %}
-        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+        <span>{{ site.social.name }}</span>
       {% endif %}
       </em>
     </span>
