@@ -44,9 +44,11 @@
   {{ seo_tags }}
 
   <title>
-  {%- unless page.layout == "posts_list" -%}
+  {%- if page.layout == "posts_list" -%}
+    {{ site.data.locales["en"].tabs.posts_list | append: " | "}}
+  {% elsif page.name != "about.md" %}
     {{ page.title | append: " | "}}
-  {%- endunless -%}
+  {%- endif -%}
     {{ site.website_title }}
   </title>
 
