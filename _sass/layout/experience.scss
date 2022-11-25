@@ -26,7 +26,7 @@
   ul {
     li {
       font-size: 1.1rem;
-      line-height: 3rem;
+      line-height: 5rem;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -41,17 +41,17 @@
 
         top: 0;
         left: 114px;
-        height: 3.1rem;
+        height: 5.1rem;
       }
     }
     
     &:last-child li:first-child::before {
-      height: 32px;
-      top: 24px;
+      height: 37px;
+      top: 43px;
     }
 
     &:last-child li:last-child::before {
-      height: 1.5rem;
+      height: 2.5rem;
     }
   } /* #archives ul */
 
@@ -60,11 +60,6 @@
     display: inline-block;
     position: relative;
     right: 0.5rem;
-
-    &.month {
-      width: 1.4rem;
-      text-align: center;
-    }
 
     &.day {
       font-size: 85%;
@@ -90,7 +85,7 @@
       width: 8px;
       height: 8px;
       float: left;
-      top: 1.35rem;
+      top: 2.26rem;
       left: 108px;
       background-color: var(--timeline-node-bg);
       box-shadow: 0 0 3px 0 #c2c6cc;
