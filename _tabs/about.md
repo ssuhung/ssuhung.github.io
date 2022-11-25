@@ -20,15 +20,22 @@ permalink: "/"
 
 # 經歷
 
-* 2016 ~ 2020<br>
-國立臺灣大學 物理學系 大學部<br>
-輔修 資訊工程學系
-
-* 2021 ~ 2022<br>
-聖學科技 自動化測試工程師
-
-* 2022 ~ 2024<br>
-國立東京大學 情報理工研究科 修士課程
+<div id="experience" class="pl-xl-3" bis_skin_checked="1">
+    <ul class="list-unstyled">
+        <li>
+            <span class="date day">2016 ~ 2020</span>
+            <a href="https://www.ntu.edu.tw/" target="_blank">國立臺灣大學</a><span> 物理學系 大學部 (輔修 資訊工程學系)</span>
+        </li>
+        <li>
+            <span class="date day">2021 ~ 2022</span>
+            <a href="https://www.gofreight.com/" target="_blank">聖學科技</a><span> 自動化測試工程師</span>
+        </li>
+        <li>
+            <span class="date day">2022 ~ 2024</span>
+            <a href="https://www.u-tokyo.ac.jp" target="_blank">國立東京大學</a><span> 情報理工研究科 修士課程</span>
+        </li>
+    </ul>
+</div>
 
 <!-- # Projects -->
 
