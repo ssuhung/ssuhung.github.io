@@ -1049,6 +1049,7 @@ $sidebar-display: "sidebar-display";
       @extend %no-bottom-border;
     }
   }
+
   #experience {
     a:not(:hover) {
       @extend %no-bottom-border;
