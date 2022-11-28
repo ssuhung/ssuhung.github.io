@@ -1050,6 +1050,12 @@ $sidebar-display: "sidebar-display";
     }
   }
 
+  #experience {
+    a:not(:hover) {
+      @extend %no-bottom-border;
+    }
+  }
+
   @at-root .row:only-child > #{&} {
     padding-bottom: 3rem;
   }
