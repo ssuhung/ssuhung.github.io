@@ -26,32 +26,50 @@
   ul {
     li {
       font-size: 1.1rem;
-      line-height: 5rem;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      height: 8rem;
 
       &:nth-child(odd) {
         background-color: var(--main-bg, #ffffff);
         background-image: linear-gradient(to left, #ffffff, #fbfbfb, #fbfbfb, #fbfbfb, #ffffff);
       }
+    }
 
-      &::before {
-        @extend %timeline;
+    // Line of timeline
+    &::before {
+      @extend %timeline;
 
-        top: 0;
-        left: 114px;
-        height: 5.1rem;
+      top: 4.2rem;
+      left: 114px;
+      height: 16.01rem;
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+
+      .flex-time {
+        // border: 1px solid #73AD21;
+      }
+
+      .flex-text {
+        // border: 1px solid #73AD21;
+        margin-left: 3rem;
       }
     }
 
-    &:last-child li:first-child::before {
-      height: 37px;
-      top: 43px;
-    }
-
-    &:last-child li:last-child::before {
-      height: 2.5rem;
+    /* The dot of timeline */
+    .flex-time::after {
+      content: "";
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      background-color: var(--timeline-node-bg);
+      box-shadow: 0 0 3px 0 #c2c6cc;
+      z-index: 1;
+      display: block;
+      position: relative;
+      top: -1rem;
+      left: 108px;
     }
   } /* #archives ul */
 
@@ -69,27 +87,11 @@
 
   a {
     /* experience title in timeline */
-    margin-left: 2.5rem;
+    // margin-left: 2.5rem;
     position: relative;
 
     &:hover {
       border-bottom: none;
-    }
-
-    &::before {
-      /* the dot before experience */
-      content: "";
-      display: inline-block;
-      position: relative;
-      border-radius: 50%;
-      width: 8px;
-      height: 8px;
-      float: left;
-      top: 2.26rem;
-      left: 108px;
-      background-color: var(--timeline-node-bg);
-      box-shadow: 0 0 3px 0 #c2c6cc;
-      z-index: 1;
     }
   }
 }
