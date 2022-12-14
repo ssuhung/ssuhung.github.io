@@ -2,6 +2,7 @@
 title: 淺談 Constant-time Program | 資安小講堂
 date: 2022-12-11
 categories: [Cybersecurity]
+math: true
 ---
 
 # 前言
