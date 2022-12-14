@@ -110,4 +110,9 @@
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
   {% endunless %}
+
+  <!-- Google Analytics -->
+  {% if site.google_analytics.id != empty and site.google_analytics.id %}
+    {% include google-analytics.html %}
+  {% endif %}
 </head>
