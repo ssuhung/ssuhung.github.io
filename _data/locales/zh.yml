@@ -20,7 +20,6 @@ tabs:
 # the text displayed in the search bar & search results
 search:
   hint: 搜尋
-  cancel: 取消
   no_results: 沒有搜尋結果
 
 panel:
