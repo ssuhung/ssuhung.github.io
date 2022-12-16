@@ -520,7 +520,21 @@ img[data-src] {
   iframe {
     margin: 1.5rem 0 1.5rem 0;
   }
-} /* .post-content */
+
+  @media only screen and (min-width: 576px) {
+    iframe {
+      width: 560px;
+      height: 315px;
+    }
+  }
+
+  @media not screen and (min-width: 576px) {
+    iframe {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+    }
+  }
+}
 
 .tag:hover {
   @extend %tag-hover;
