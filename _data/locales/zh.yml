@@ -39,13 +39,11 @@ copyright:
   verbose: >-
     本網站上的文章均由作者按照知識共享署名 4.0 國際 (CC BY 4.0) 許可協議進行授權。 
 
-meta: 本網站由 :PLATFORM 生成，使用 :THEME 主題。
-
 not_found:
   statment: 抱歉，找不到此内容，或者清零宗不喜歡這篇文章。
 
 notification:
-  update_found: 發現新版本的内容。
+  update_found: 網站已更新，請按下更新以重新載入
   update: 更新
 
 # ----- Posts related labels -----
