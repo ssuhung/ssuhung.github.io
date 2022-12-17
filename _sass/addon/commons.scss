@@ -917,6 +917,9 @@ $sidebar-display: "sidebar-display";
     font-size: 1rem;
     color: gray;
     padding-left: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
     a:hover {
       @extend %link-hover;
@@ -1490,10 +1493,7 @@ $sidebar-display: "sidebar-display";
 
   #breadcrumb {
     width: 65%;
-    overflow: hidden;
-    text-overflow: ellipsis;
     word-break: keep-all;
-    white-space: nowrap;
   }
 }
 
