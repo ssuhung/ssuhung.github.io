@@ -27,7 +27,7 @@ permalink: "/"
                 <span class="date day">2016 ~ 2020</span>
             </div>
             <div class="flex-text">
-                <a href="https://www.ntu.edu.tw/" target="_blank">國立臺灣大學</a>
+                <a href="https://www.ntu.edu.tw/">國立臺灣大學</a>
                 <span> 物理學系 大學部（輔系：資訊工程學系）</span>
             </div>
         </li>
@@ -36,7 +36,7 @@ permalink: "/"
                 <span class="date day">2021 ~ 2022</span>
             </div>
             <div class="flex-text">
-                <a href="https://www.gofreight.com/" target="_blank">聖學科技</a>
+                <a href="https://www.gofreight.com/">聖學科技</a>
                 <span> 自動化測試工程師</span>
             </div>
         </li>
@@ -45,7 +45,7 @@ permalink: "/"
                 <span class="date day">2022 ~ 2024</span>
             </div>
             <div class="flex-text">
-                <a href="https://www.u-tokyo.ac.jp" target="_blank">國立東京大學</a>
+                <a href="https://www.u-tokyo.ac.jp">國立東京大學</a>
                 <span> 情報理工研究科 修士課程</span>
             </div>
         </li>

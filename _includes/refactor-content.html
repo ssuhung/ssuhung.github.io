@@ -281,6 +281,49 @@
 
 {% endif %}
 
+<!-- Add target="_blank" to open link in another tab if the link is other site -->
+{% assign A_TAG = '<a ' %}
+{% if _content contains A_TAG %}
+  {% assign _a_content = nil %}
+  {% assign _a_snippets = _content | split: A_TAG %}
+
+  {% for _a_snippet in _a_snippets %}
+    {% if forloop.first %}
+      {% assign _a_content = _a_snippet %}
+      {% continue %}
+    {% endif %}
+
+    {% assign _src = nil %}
+
+    {% assign _left = _a_snippet | split: '>' | first %}
+    {% assign _right = _a_snippet | remove: _left %}
+
+    {% assign _left = _left | remove: ' /' %}
+    {% assign _attrs = _left | split: ' ' %}
+
+    {% for _attr in _attrs %}
+      {% assign _pair = _attr | split: '=' %}
+      {% capture _key %}{{ _pair | first }}{% endcapture %}
+      {% capture _value %}{{ _pair | last | replace: '"', '' }}{% endcapture %}
+
+      {% if _key == 'href' %}
+        {% assign _site_baseurl = site.baseurl | remove: '/' %}
+        {% unless _value contains _site_baseurl %}
+          {% assign _left = _left | append: ' target="_blank"' %}
+        {% endunless %}
+        {% break %}
+      {% endif %}
+
+    {% endfor %}
+
+    {% assign _a_content = _a_content | append: A_TAG | append: _left | append: _right %}
+
+  {% endfor %}
+
+  {% assign _content = _a_content %}
+
+{% endif %}
+
 <!-- return -->
 
 {{ _content }}
