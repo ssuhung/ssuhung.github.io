@@ -1,5 +1,5 @@
 ---
 layout: archives
-icon: fas fa-sort-amount-down-alt
+icon: fa-solid fa-timeline
 order: 5
 ---
