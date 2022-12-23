@@ -3,6 +3,8 @@ title: 淺談 Constant-time Programming | 資安漫談
 date: 2022-12-11
 categories: [Cybersecurity]
 math: true
+image:
+    path: /assets/img/post_img/timer.jpg
 ---
 
 # 前言
