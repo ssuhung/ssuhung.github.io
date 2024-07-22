@@ -22,13 +22,22 @@ permalink: "/"
 
 <div id="experience" class="pl-xl-3" bis_skin_checked="1">
     <ul class="list-unstyled">
-        <li class="flex">
+        <!-- <li class="flex">
             <div class="flex-time">
-                <span class="date day">2016 ~ 2020</span>
+                <span class="date day">2024 ~ </span>
             </div>
             <div class="flex-text">
-                <a href="https://www.ntu.edu.tw/">國立臺灣大學</a>
-                <span> 物理學系 大學部（輔系：資訊工程學系）</span>
+                <a href="https://www.qnap.com/zh-tw/">QNAP 威聯通科技</a>
+                <span> 軟體工程師</span>
+            </div>
+        </li> -->
+        <li class="flex">
+            <div class="flex-time">
+                <span class="date day">2022 ~ 2024</span>
+            </div>
+            <div class="flex-text">
+                <a href="https://www.u-tokyo.ac.jp">國立東京大學</a>
+                <span> 情報理工研究科 修士課程</span>
             </div>
         </li>
         <li class="flex">
@@ -42,11 +51,11 @@ permalink: "/"
         </li>
         <li class="flex">
             <div class="flex-time">
-                <span class="date day">2022 ~ 2024</span>
+                <span class="date day">2016 ~ 2020</span>
             </div>
             <div class="flex-text">
-                <a href="https://www.u-tokyo.ac.jp">國立東京大學</a>
-                <span> 情報理工研究科 修士課程</span>
+                <a href="https://www.ntu.edu.tw/">國立臺灣大學</a>
+                <span> 物理學系 大學部（輔系：資訊工程學系）</span>
             </div>
         </li>
     </ul>
