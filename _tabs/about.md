@@ -22,7 +22,7 @@ permalink: "/"
 
 <div id="experience" class="pl-xl-3" bis_skin_checked="1">
     <ul class="list-unstyled">
-        <!-- <li class="flex">
+        <li class="flex">
             <div class="flex-time">
                 <span class="date day">2024 ~ </span>
             </div>
@@ -30,7 +30,7 @@ permalink: "/"
                 <a href="https://www.qnap.com/zh-tw/">QNAP 威聯通科技</a>
                 <span> 軟體工程師</span>
             </div>
-        </li> -->
+        </li>
         <li class="flex">
             <div class="flex-time">
                 <span class="date day">2022 ~ 2024</span>
