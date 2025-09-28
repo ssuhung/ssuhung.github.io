@@ -24,7 +24,16 @@ permalink: "/"
     <ul class="list-unstyled">
         <li class="flex">
             <div class="flex-time">
-                <span class="date day">2024 ~ </span>
+                <span class="date day">2025 ~ </span>
+            </div>
+            <div class="flex-text">
+                <a href="https://about.google/">Google</a>
+                <span> 軟體工程師</span>
+            </div>
+        </li>
+        <li class="flex">
+            <div class="flex-time">
+                <span class="date day">2024 ~ 2025</span>
             </div>
             <div class="flex-text">
                 <a href="https://www.qnap.com/zh-tw/">QNAP 威聯通科技</a>
